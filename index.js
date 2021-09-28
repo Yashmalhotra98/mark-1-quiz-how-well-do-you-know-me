@@ -62,7 +62,7 @@ for(var i=0; i<highScore.length; i++){
 console.log('---------------------------------')
 
 if(scoreBeaten){
-  console.log(chalk.whiteym.bold.bgBlack("Congratulations "+userName+" , you have beaten the SCORE-BOARD. You are my best friend ❤️"));
+  console.log(chalk.white.bold.bgBlack("Congratulations "+userName+" , you have beaten the SCORE-BOARD. You are my best friend ❤️"));
 
   console.log(chalk.keyword('pink').bold("\n***** U P D A T E D    S C O R E B O A R D *****"));
   printScoreBoard(highScore);
